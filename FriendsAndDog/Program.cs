@@ -1,8 +1,12 @@
 ﻿int count = 0;
-int distance = 10000;
-int first_friend_speed = 1;
-int second_friend_speed = 2;
-int dog_speed = 5;
+Console.Write("Введите расстояние между друзьями в метрах ");
+int distance = int.Parse(Console.ReadLine());
+Console.Write("Введите скорость первого друга в м/с ");
+int first_friend_speed = int.Parse(Console.ReadLine());
+Console.Write("Введите скорость второго друга в м/с ");
+int second_friend_speed = int.Parse(Console.ReadLine());
+Console.Write("Введите скорость собаки в м/с ");
+int dog_speed = int.Parse(Console.ReadLine());
 int friend = 2;
 int time = 0;
 
