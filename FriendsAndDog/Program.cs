@@ -14,6 +14,7 @@ while(distance > 10)
         distance = distance - (first_friend_speed + second_friend_speed)*time;
         count = count + 1;
     }
+    
     if(friend == 2)
     {
         int time = distance/(second_friend_speed + dog_speed);
